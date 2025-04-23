@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors - Code.io</title>
+    <style>
+        body{
+            background-color: #29335c;
+        }
+
+        /* Universal Selector */
+
+        *{
+            color:#f3a712;
+        }
+
+        /* Element Selector */
+
+        div{
+            color: #F0CEA0;
+        }
+
+        /* Id Selector */
+
+        #one{
+            color:aquamarine;
+        }
+
+        /* Class Selector */
+
+        .fruit{
+            color: rgb(200,0,0);
+        }
+
+        /* Class + Id Selector */
+
+        .subjects #maths{
+            color: yellow;
+        }
+
+        .subjects #physics{
+            color: violet;
+        }
+
+        .subjects #chemistry{
+            color: orange;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Universal Selector -->
+
+    <p>We are studying Different type of Selectors</p>
+    <hr>
+
+    <!-- Element Selector -->
+
+    <div>Element Selector applies Style to every element linked to the tag</div>
+    <hr>
+
+    <!-- Id Selector -->
+
+    <div id="one">Id is an object associated within the class</div>
+    <hr>
+
+    <!-- Class Selector -->
+
+    <div class="fruit">Did you know Tomato is a Fruit?</div>
+    <hr>
+
+    <!-- Class + Id Selector -->
+
+    <div class="subjects">
+        <div id="maths">Maths</div>
+        <div id="physics">Physics</div>
+        <div id="chemistry">Chemistry</div>
+    </div>
+    <hr>
+</body>
+</html>
