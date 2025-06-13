@@ -1,0 +1,90 @@
+.align{
+    text-align:center;
+}
+
+.static{
+    height: 30px;
+    width: 250px;
+    border: 2px solid violet;
+    position: static;
+    top:20px;
+}
+
+.relative{
+    height: 30px;
+    width:300px;
+    border:2px solid green;
+    position: relative;
+    top:20px;
+    left:20px;
+}
+        
+.absolute {
+    position: relative;
+}
+
+.absolute #absoluteOne{
+    height: 30px;
+    width: 320px;
+    border: 2px solid red;
+    position:absolute;
+    top: 20px;
+}
+
+.absolute #absoluteTwo{
+    height: 30px;
+    width: 320px;
+    border: 2px solid blue;
+    position:absolute;
+    top: 60px;
+}
+
+.fixed {
+    height: 30px;
+    width: 930px;
+    border: 2px solid brown;
+    position: fixed;
+    background-color: grey;
+}
+
+.sticky{
+    height: 30px;
+    width: 350px;
+    border: 2px solid cyan;
+    position: sticky;
+    top: 0px;
+    left: 20px;
+    background-color: grey;
+}
+
+.zAxis{
+    position: relative;
+}
+
+.zAxis #zAxisOne{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+    position: relative;
+    top: 30px;
+    left: 85px;
+    z-index: 20;
+}
+
+.zAxis #zAxisTwo{
+    height: 50px;
+    width: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    position: relative;
+    z-index: -20;
+}
+
+.backgroundPhoto{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-image: url("Image.jpg");
+    background-size:cover;
+}
