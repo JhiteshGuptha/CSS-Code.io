@@ -1,0 +1,46 @@
+.align{
+    text-align:center;
+}
+
+.percentage{
+    height: 100px;
+    width:500px;
+    background-color: grey;
+}
+
+.percentage #box{
+    height: 100px;
+    width: 33%;
+    margin-left: 30%;
+    background-color:bisque;
+}
+
+.em{
+    height: 150px;
+    width: 500px;
+    background-color: skyblue;
+    font-size: 40px;
+}
+
+.em #emBox{
+    height: 80px;
+    width: 18em; 
+    font-size:0.5em;
+    margin-left:10%;
+    background-color: brown;
+}
+
+.rem{
+    height: 150px;
+    width: 500px;
+    background-color: skyblue;
+    font-size: 40px;
+}
+
+.rem #remBox{
+    height: 80px;
+    width: 20rem; 
+    font-size:0.5em;
+    margin-left:10%;
+    background-color: brown;
+}
