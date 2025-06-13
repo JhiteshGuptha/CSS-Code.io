@@ -1,0 +1,95 @@
+.align{
+    text-align: center;
+}
+
+/* Height */
+
+.height{
+    height: 100px;
+}
+
+/* Width */
+
+.width{
+    width: 100px;
+}
+
+/* Border  */
+
+.border{
+    height: 30px;
+    width: 230px;
+    border: 2px solid blueviolet;
+}
+        
+/* Border Radius */
+
+.radius{
+    height: 30px;
+    width: 230px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+}
+
+/* Circle using Border Radius */
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+/* Padding */
+
+.padding{
+    height: 30px;
+    width: 350px;
+    border: 2px solid brown; 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Shorthand Padding */
+
+.shorthandPadding{
+    height: 30px;
+    width: 380px;
+    border: 2px solid orangered;
+    padding: 10px 15px 20px 25px;
+}   
+
+/* Margin */
+
+.withoutMargin{
+    height: 30px;
+    width: 300px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.margin{
+    height: 30px;
+    width: 100px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Shorthand Margin */
+        
+.shorthandMargin{
+    height: 30px;
+    width: 300px;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 50px 50px 50px 50px; /* We can also write margin:50px */
+}
