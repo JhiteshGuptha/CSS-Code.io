@@ -1,0 +1,41 @@
+body{
+    background-color: #29335c;
+}
+
+/* Universal Selector */
+
+*{
+    color:#f3a712;
+}
+
+/* Element Selector */  
+
+div{
+    color: #F0CEA0;
+}
+
+/* Id Selector */
+
+#one{
+    color:aquamarine;
+}
+
+/* Class Selector */
+
+.fruit{
+    color: rgb(200,0,0);
+}
+
+/* Class + Id Selector */
+
+.subjects #maths{
+    color: yellow;
+}
+
+.subjects #physics{
+    color: violet;
+}
+
+.subjects #chemistry{
+    color: orange;
+}
