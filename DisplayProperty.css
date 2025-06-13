@@ -1,0 +1,24 @@
+.align{
+    text-align: center;
+}
+
+.inline{
+    background-color: red;
+    display: inline;
+}
+
+.block{
+    background-color: green;
+    display: block;
+}
+
+.inlineBlock{
+    height: 100px;
+    width:300px;
+    border: 2px solid grey;
+    padding: 25px;
+    margin: 25px;
+    background-color: brown;
+    color: white;
+    display: inline-block;
+}
